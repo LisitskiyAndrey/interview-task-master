@@ -1,0 +1,48 @@
+.plane-map-popup .maplibregl-popup-content {
+  padding: 8px 10px;
+  border-radius: 8px;
+}
+
+.plane-popup {
+  min-width: 140px;
+}
+
+.plane-popup__header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.plane-popup__dot {
+  width: 7px;
+  height: 7px;
+  flex-shrink: 0;
+  border-radius: 999px;
+}
+
+.plane-popup__title {
+  font-size: 13px;
+  font-weight: 650;
+  line-height: 1.2;
+}
+
+.plane-popup__airline {
+  margin-top: 1px;
+  font-size: 11px;
+  line-height: 1.2;
+  padding-inline-start: 13px;
+}
+
+.plane-popup__meta {
+  display: flex;
+  gap: 4px;
+  margin-top: 6px;
+  padding-inline-start: 7px;
+}
+
+.plane-popup__meta span {
+  border-radius: 6px;
+  padding: 1px 6px;
+  font-size: 10px;
+  line-height: 1.5;
+}

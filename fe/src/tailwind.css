@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light;
+
+    --background: 248 250 252;
+    --surface: 255 255 255;
+    --muted: 241 245 249;
+    --app: 245 245 245;
+    --sidebar-nav: 30 33 48;
+
+    --overlay: 0 0 0;
+    --overlay-ghost: 255 255 255;
+
+    --nav-active: 37 99 235;
+    --nav-hover: 226 232 240;
+
+    --foreground: 15 23 42;
+    --muted-foreground: 100 116 139;
+    --foreground-inverse: 255 255 255;
+    --foreground-disabled: 203 213 225;
+    --modal-surface: 255 255 255;
+    --modal-foreground: 15 23 42;
+
+    --border: 226 232 240;
+    --border-strong: 203 213 225;
+
+    --asset-btc: 245 158 11;
+    --asset-btc-bg: 255 251 235;
+    --asset-eth: 129 140 248;
+    --asset-eth-bg: 238 242 255;
+    --asset-usdt: 52 211 153;
+    --asset-usdt-bg: 236 253 245;
+    --asset-usdt-icon: 16 185 129;
+    --asset-usdc: 34 197 94;
+    --asset-usdc-bg: 240 253 244;
+
+    --status-pending-bg: 254 249 195;
+    --status-pending-fg: 146 64 14;
+    --status-processing-bg: 219 234 254;
+    --status-processing-fg: 29 78 216;
+    --status-completed-bg: 220 252 231;
+    --status-completed-fg: 21 128 61;
+    --status-failed-bg: 254 226 226;
+    --status-failed-fg: 185 28 28;
+  }
+
+  .dark {
+    color-scheme: light;
+  }
+
+  html {
+    @apply bg-background text-foreground;
+  }
+
+  body {
+    @apply min-h-screen bg-app font-sans text-foreground;
+  }
+
+  #root {
+    @apply min-h-screen bg-app text-foreground;
+  }
+}
