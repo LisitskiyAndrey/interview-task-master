@@ -23,12 +23,12 @@ The app connects to a WebSocket backend, displays aircraft on a MapLibre map, sh
 
 ## Environment
 
-Frontend expects the backend WebSocket server on port `4000`.
+Frontend expects the backend WebSocket server on port `3000`.
 
 Create or keep `fe/.env`:
 
 ```env
-VITE_WS_BASE_URL=ws://localhost:4000
+VITE_WS_BASE_URL=ws://localhost:3000
 VITE_APP_ENV=dev
 ```
 
